@@ -17,13 +17,13 @@ def test_valid_positive_integer():
     assert valid_positive_integer('100') == True
     assert valid_positive_integer(3) == True
     assert valid_positive_integer('3') == True
+    assert valid_positive_integer(1.0) == True # can be represented as an integer
 
     # Test invalid cases
     assert valid_positive_integer(-100) == False
     assert valid_positive_integer(-25) == False
     assert valid_positive_integer(-0) == False
     assert valid_positive_integer(0.0) == False
-    assert valid_positive_integer(1.0) == False
     assert valid_positive_integer(1.2) == False
     assert valid_positive_integer(-1.0) == False
     assert valid_positive_integer('-0') == False
