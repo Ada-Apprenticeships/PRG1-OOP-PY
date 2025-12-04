@@ -39,7 +39,7 @@ valid_positive_integer(0.0)   # returns False
   - MEDIUM (3)
   - HIGH (5)
   - URGENT (7)
-- **Returns LOW (1)** for invalid inputs
+- **Returns PRIORITY.LOW (1)** for invalid inputs
 
 ```python
 validate_priority(1)    # returns 1
