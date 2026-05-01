@@ -1,4 +1,3 @@
-import re # optional if you want to use it
 from datetime import datetime # use python's built-in datetime module and only import the datetime class from the datatime module ( the double name is confusing, otherwise we will need to use datetime.datetime.now() )
 
 PRIORITY = { "LOW": 1, "MEDIUM": 3, "HIGH": 5, "URGENT": 7 }
